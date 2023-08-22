@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="author" content="Gonzalo Emanuel Castillo">
+	<meta name="description" content="Un estudio digital de diseño basado en Resistencia, Argentina.">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+	<title>Kilimanjjjaro</title>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104166392-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments)};
+		gtag('js', new Date());
+
+		gtag('config', 'UA-104166392-1');
+	</script>
+
+</head>
+<body>
+
+	<div id="preloader"><div id="status">&nbsp;</div></div>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-12 col-md-3 d-flex justify-content-between justify-content-md-start">
+				<header>
+					<a href="index.html"><span class="logo"></span></a>
+					
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a class="nav-link active" href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="collapse" href="#projects" aria-expanded="false" aria-controls="projects">Proyectos</a>
+							<div class="collapse" id="projects">
+								<ul class="list-unstyled collapse-content">
+									<li class="collapse-item">
+										<a href="project/kilimanjjjaro.html">Kilimanjjjaro</a>
+									</li>
+									<li class="collapse-item">
+										<a href="project/vittoria.html">Vittoria</a>
+									</li>
+									<li class="collapse-item">
+										<a href="project/leroux.html">Le Roux</a>
+									</li>
+									<li class="collapse-item">
+										<a href="project/wallofmusic.html">Wall of Music</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">Acerca</a>
+						</li>
+						<li class="nav-item pb-0">
+							<a class="nav-link" href="contact.html">Contacto</a>
+						</li>
+					</ul>
+				</header>
+
+				<span class="open-menu-btn" onclick="openNav()"></span>
+
+				<footer class="hidden-sm-down">
+					<div class="social-networks">
+						<a href="https://www.behance.net/kilimanjjjaro" target="_blank" aria-label="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/kilimanjjjaro" target="_blank" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://www.instagram.com/kilimanjjjaro" target="_blank" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+					<p>&copy; Kilimanjjjaro</p>
+				</footer>
+			</div>
+
+			<div id="toggle-menu" class="overlay">
+				<a href="javascript:void(0)" class="close-menu-btn" onclick="closeNav()">&times;</a>
+
+				<div class="overlay-content">
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#projects2" aria-expanded="false" aria-controls="projects2">Proyectos</a>
+							<div class="collapse" id="projects2">
+								<ul class="list-unstyled collapse-content">
+									<li class="collapse-item pt-3">
+										<a href="project/kilimanjjjaro.html">Kilimanjjjaro</a>
+									</li>
+									<li class="collapse-item">
+										<a href="project/vittoria.html">Vittoria</a>
+									</li>
+									<li class="collapse-item">
+										<a href="project/leroux.html">Le Roux</a>
+									</li>
+									<li class="collapse-item">
+										<a href="project/wallofmusic.html">Wall of Music</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a href="about.html">Acerca</a>
+						</li>
+						<li class="nav-item">
+							<a href="contact.html">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-9">
+				<main>
+					<div class="card-columns">
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/4.jpg"><img class="img-fluid" src="img/4.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Fog</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/2.jpg"><img class="img-fluid" src="img/2.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Shoes</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a href="project/vittoria.html"><img class="img-fluid" src="img/1.jpg" alt="Le Roux"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2"><a href="project/vittoria.html">Vittoria</a></div>
+								</div>
+								<div class="image-footer">
+									<p>Branding. Sistema de comunicación.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/6.jpg"><img class="img-fluid" src="img/6.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Fog</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/7.jpg"><img class="img-fluid" src="img/7.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Sky is the limit</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/13.jpg"><img class="img-fluid" src="img/13.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Rainy day</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/8.jpg"><img class="img-fluid" src="img/8-thumb.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Work</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a href="project/kilimanjjjaro.html"><img class="img-fluid" src="img/5.jpg" alt="Kilimanjjjaro"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2"><a href="project/kilimanjjjaro.html">Kilimanjjjaro</a></div>
+								</div>
+								<div class="image-footer">
+									<p>Branding. Sitio web. Sistema de comunicación.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/3.jpg"><img class="img-fluid" src="img/3.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Contrast</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a href="project/leroux.html"><img class="img-fluid" src="img/10.jpg" alt="Le Roux"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2"><a href="project/leroux.html">Le Roux</a></div>
+								</div>
+								<div class="image-footer">
+									<p>Branding. Sistema de comunicación.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/11.jpg"><img class="img-fluid" src="img/11.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Backstage</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a href="project/wallofmusic.html"><img class="img-fluid" src="img/14.jpg" alt="Wall of Music"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2"><a href="project/wallofmusic.html">Wall of Music</a></div>
+								</div>
+								<div class="image-footer">
+									<p>Retratos de íconos de la música.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/9.jpg"><img class="img-fluid" src="img/9-thumb.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Black mirror</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card scroll">
+							<div class="image">
+								<a data-fancybox="gallery" href="img/12.jpg"><img class="img-fluid" src="img/12.jpg" alt="#ShotoniPhone"></a>
+							</div>
+							<div class="image-text">
+								<div class="image-header">
+									<div class="title h2">Clouds</div>
+								</div>
+								<div class="image-footer">
+									<p><a href="https://www.instagram.com/explore/tags/shotoniphone/" target="_blank">#ShotoniPhone</a></p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</main>
+			</div>
+
+			<div class="back-to-top"><span class="icon-top"></span></div>
+
+			<div class="col-12 col-md-9 hidden-md-up">
+				<footer>
+					<p>&copy; Kilimanjjjaro</p>
+				</footer>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.scroll', { distance: '150px', duration: 800, easing: 'ease-out', scale: 0.8 });
+	</script>
+</body>
+</html>
